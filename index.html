@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav" id="hom">
+       <ul>
+       <li><img src="images/bloodlogo-removebg-preview.png" alt="" class="logo"></li>
+        <li><a href="#hom">Home</a></li>
+        <li><a href="#bbms">About-Us</a></li>
+       
+        <li><a href="display.html">Display Donors</a></li>
+        <li><a href="delete.html">Delete Record</a></li>
+        <li><a href="edit.html">Edit Donors</a></li>
+        <li><a href="#conus">Contact-Us</a></li>
+        <!-- <li><a href="searchbybloodgroup.html">Search by Name </a></li> 
+        <li><a href="searchbycity.html">Search by City</a></li> -->
+        <li class><a href="#form"> <button> Registration</button></a></li>
+<!--         
+        <li class="drop">
+            <select class="opt">  
+                <option value="option1" id="">Search by Blood Group</option>
+                <option value="option2" id="">Search by City</option>
+                <option value="option3" id="">Search by Age</option>
+                <button id="bt1">Search</button>
+            </select>
+           
+            
+        </li>
+        <button>Search</button> -->
+       </ul>
+    </div>
+    
+
+    <div class="pic"></div>
+    <br><br>
+    <div class="info">
+        <!-- <li class><a href="#form"> <button> Registration</button></a></li> -->
+        <a href="searchbybloodgroup.html">Search By Name</a></li> <a href="searchbycity.html">Search By City</a>
+        <br> <br>
+        <!-- <button id="bt1">Search</button> -->
+    </div>
+    <br><br>
+    <div class="content1">
+        <h1>Blood-Bank Management System</h1>
+        <br>
+    <p>Blood Bank Management System is a quality product yet again from our arsenal. If features a full range of tools which assists the Blood Bank Team to ensure smoother operation of day-to-day working in a Blood bank.</p>
+          <!-- <a href="#form"> <button> Registration</button></a> -->
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="dada">
+      <img src="images/data.jpg" alt="">
+    </div>
+   <br>
+   <br>
+   <br>
+    <div class="content2" id="bbms">
+        <h1>Why choose our BBMS?</h1>
+        <br>
+        <br>
+        <ul class="a"><li>Our application is meticulously designed to ensure ease of use.</li> &nbsp;&nbsp; <li>Detailed MIS reports helpful in prompt data Analysis and one-to-one</li></ul>
+        <br>
+        <br>
+        <ul class="b"><li>Screens are designed keeping single screen working for processing <br> multiple tasks simultaneously.</li> &nbsp;&nbsp; <li>Designed and developed according to guidelines of Drug Control Authority.</li></ul>
+    </div>
+    <br>
+    <br>
+    <div class="feature">
+        <div class="feature1">
+            <img src="images/design.png" alt="">
+            <h2>Design</h2>
+            <p>Our application is meticulously designed to ensure ease of use thereby raising client satisfaction. The screens are designed keeping single screen working for processing multiple tasks simultaneously thereby saving staff’s crucial work time.</p>
+        </div>
+        <div class="feature2">
+            <img src="images/development.png" alt="">
+            <h2>Development</h2>
+            <p>Our application is designed and developed following the latest trends and techniques prevalent in Microsoft’s ASP.net platform. In the backend we manage client data using a secure and robust architecture through Microsoft’s SQL Server architecture.</p>
+        </div>
+        <div class="feature3">
+            <img src="images/webbased.png" alt="">
+            <h2>Web Based</h2>
+            <p>Blood Bank Management System is a completely web browser based application developed keeping portability and system independent framework. Our application can be accessed and managed anywhere within the organization through browser.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br><br><br>
+
+        <div class="foor">
+            <h1>"A Single Drop Can Make a Difference: Donate Blood"</h1>
+            <br>
+            <p>If You Are Interested Please Fill The Form Given Below:--</p>
+            <br>
+            <br>
+            <br>
+        </div>
+            
+        <div class="donorform">
+       
+        <div class="donor" id="form">
+               
+            <h2>Donor Registration Form</h2>
+            <br>
+            <br>
+            <hr style="height: 2px; background-color:white;">
+            <br>
+
+            <form action="">
+
+            <label for="">Name : </label> &nbsp;&nbsp;
+            <input type="text" id="name" placeholder="Enter Your Name..." required> <br> <br> <br>
+
+            <label for="">Address : </label> 
+            <input type="text" id="add" placeholder="Enter Your Address..."> <br> <br> <br>
+            
+            <label for="">Age : </label> &nbsp;&nbsp;
+            <input type="text" id="age" placeholder="Enter Your Age..."> <br> <br> <br>
+           
+            <label for="">Phone Number : </label> &nbsp;&nbsp;
+            <input type="text" id="pno" placeholder="Enter Your Phone No..."> <br> <br> <br>
+            <!-- <label for="">Gender : </label> &nbsp;&nbsp;
+            <select name="" id="" >
+                <option value="">Choose Your Gender</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Other</option>
+               
+            </select> <br> <br> <br> -->
+           
+           
+            <label for="">Blood Group : </label> 
+            <select name="" id="bloodgroup" required >
+                <option value="">Choose Your Blood Group</option>
+                <option value="A+">A+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="AB+">AB+</option>
+                <option value="A-">A-</option>
+                <option value="B-">B-</option>
+                <option value="O-">O-</option>
+                <option value="AB-">AB-</option>
+            </select> <br> <br> <br>
+            
+            <label for="" style="margin-left: 80px;">City : </label> 
+            <select name="" id="city" >
+                
+                <option value="Bhopal">Bhopal</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Indore">Indore</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Kanpur">Kanpur</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Kerala">Kerala</option>
+            </select>
+            <br> <br><br>
+            
+            
+           
+           
+            <button id="btn1">Submit</button>
+            <br>
+            <br>
+
+            </form>
+        </div>
+
+        <div class="image">
+            <img src="images/blooddonating-removebg-preview.png" alt=""> <br> 
+            <img src="images/donation-removebg-preview.png" alt=""> <br> 
+            <img src="images/img3-removebg-preview.png" alt="">
+            
+          </div>
+          <br>
+          
+    </div>
+          
+       
+       <br>
+
+       
+        <!---Footer start-->
+
+     <section>
+        <footer class="foot" id="conus" >
+        <div class="f1">
+            <p>&copy;Designed by Shubham Singh</p> &nbsp;&nbsp; <p>Blood-Bank Management System</p>&nbsp;&nbsp;
+        </div>
+        <div class="f2">
+         
+            </p>
+        </div>
+        </footer>
+      </section>
+    
+
+
+
+
+     <!---Footer End-->
+    <script src="javascript/insertDonor.js"></script>
+</body>
+</html>

@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.nav{
+    background-color: rgb(33, 32, 32);
+    height: 60px;
+    
+    
+  
+   
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly ;
+    list-style-type: none;
+    margin-top: 0px;
+}
+.nav ul li a {
+    text-decoration: none;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    margin-left: -100px;
+    color: tomato;
+    font-size: 19px;
+    
+}
+.nav ul li a:hover{
+   color: white;
+   font-weight: bolder;
+}
+/* .nav button{
+   margin-top: 17px;
+   margin-right: -84px;
+    top: 20px;
+     height: 30px;
+     width: 60px;
+}
+.nav button:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+}
+.opt{
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    margin-left: -80px;
+    color: purple;
+    border: 1px solid black;
+    font-size: 15px;
+} */
+.logo{
+    height: 60px;
+    width: 80px;
+    margin-left: -120px;
+}
+.pic{
+    height: 390px;
+    width: 1280px;
+    background-image: url('images/bloodbankbackground1.jpg');
+    background-size: cover;
+}
+.info{
+    display: flex;
+}
+.info a{
+    height: 20px;
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    margin-left: 250px;
+   
+    
+}
+
+.info a:hover{
+    background-color: beige;
+}
+/* .info button{
+    
+   
+    margin-left: 550px;
+     top: 20px;
+      height: 40px;
+      font-size: larger;
+      width: 120px;
+ } */
+ /* .info button:hover{
+     color: white;
+     background-color: black;
+     border: 1px solid red;
+     transform: scale(1.1);
+     transition: transform 0.1s ease;
+ } */
+
+
+.content1 h1{
+    text-align: center;
+      color: darkblue;
+      text-decoration: wavy underline black;
+}
+.content1 p{
+    color: purple;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.nav button{
+    margin-top: -10px;
+    height: 45px;
+    width: 160px;
+    /* background: linear-gradient(to right, #ff5733, #f5af19); */
+    background-color: rgb(33, 32, 32);
+    color: tomato;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+   margin-left: 35px;
+}
+.nav button:hover {
+    color: white;
+    background: linear-gradient(to right, #ff5733, purple);
+}
+.dada img{
+    height: auto;
+    width: 1000px;
+    margin-left: 110px;
+}
+.content2{
+    height: 200px;
+    width: 1275px;
+    background-color: rgba(231, 210, 210, 0.546);
+
+}
+.content2 h1{
+    text-align: center;
+    color: darkblue;
+    text-decoration: wavy underline black;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+}
+.feature{
+    display: flex;
+    justify-content: space-around;
+}
+.feature img{
+  margin-left: 100px; 
+  
+}
+.feature h2{
+    margin-left: 100px; 
+    color: blue;
+}
+.feature div{
+    width: 330px;
+}
+.feature1:hover {
+    transform: scale(1.1); /*Increase the scale factor to control the zoom level*/
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    border: 2px solid white;
+    box-shadow: 3px 2px 3px 2px grey;
+}
+.feature2:hover {
+    transform: scale(1.1); /* Increase the scale factor to control the zoom level */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    border: 2px solid white;
+    box-shadow: 3px 2px 3px 2px grey;
+}
+.feature3:hover {
+    transform: scale(1.1); /* Increase the scale factor to control the zoom level */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    border: 2px solid white;
+    box-shadow: 3px 2px 3px 2px grey;
+}
+
+.foor{
+    height: auto;
+    width: 850px;
+    margin-left: 240px;
+}
+.foor h1{
+    color: darkblue;
+    text-decoration: wavy underline black;
+}
+.foor p{
+    color: darkred;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: dashed underline black;
+}
+.donorform{
+    display: flex;
+    background: linear-gradient(to right, #ff5733, blue);
+    /* background-image: url('images/formbackground.jpeg'); */
+    background-size: cover;
+    height: 890px;
+}
+.donor{
+    margin-top: 110px;
+    height: 470px;
+    margin-left: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 3px orange;
+    border-radius: 5px 5px 5px 5px;
+    height: 600px;
+    width: 600px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: rgb(23, 1, 6);
+    /* background-image: url('images/innerformback.jpeg');
+    background-size: cover; */
+    
+   
+}
+.donor img{
+    height: 100px;
+    width: 100px;
+    
+}
+.donor h2{
+   
+    text-align: center;
+    color:yellow;
+    font-size: 50px;
+    
+}
+
+.donor form{
+    /* background-image: url('images/innerformback.jpeg');
+    background-size: cover; */
+    background-color: rgb(23, 1, 6);
+    text-align: center;
+    height:440px ;
+    margin-top: 25px;
+}
+.donor form label{
+    margin-left: 37px;
+    font-size: 20px;
+    color: white;
+}
+    
+
+.donor form input{
+    margin-left: 50px;
+    font-size: 19px;
+    border: 2px solid black;
+}
+.donor form select{
+    margin-left: 50px;
+    font-size: 19px;
+    border: 2px solid black;
+    width: 280px;
+}
+.donor form button{
+    height: 40px;
+    width: 80px;
+    background: linear-gradient(to right, #ff5733, #f5af19);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.donor form button:hover {
+    background: linear-gradient(to right, #ff5733, purple);
+}
+/* .donor form button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid darkred;
+} */
+.image img{
+    margin-top: 10px;
+    margin-left: 140px;
+    height: 250px;
+    width: 400px;
+}
+
+.foot{
+   
+  display: flex;
+    width: 100%;
+    
+    background-color: darkblue;
+    height: 40px;
+  }
+  .foot p{
+    color: slategrey;
+    color: white;
+   align-items: center;
+   font-size: 30px;
+   margin-left: 40px;
+  }
+  .f1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .f2{
+    display: flex;
+  
+    align-items: center;
+    margin-left: 300px;
+    
+  }
+  .f2 span{
+    color: black;
+    box-shadow: none;
+  } 

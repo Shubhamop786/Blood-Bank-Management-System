@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    /* height: 890px;
+    width: 1280px; */
+    background-image: url('images/hospital1.jpeg');
+    background-size: cover;
+    /* background-color: aliceblue; */
+}
+.nav{
+    background-color: rgb(33, 32, 32);
+    height: 60px;
+    
+  
+   
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly ;
+    list-style-type: none;
+    margin-top: 0px;
+}
+.nav ul li a {
+    text-decoration: none;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    margin-left: -100px;
+    color: tomato;
+    font-size: 19px;
+    
+}
+.nav ul li a:hover{
+   color: white;
+   font-weight: bolder;
+}
+
+.logo{
+    height: 60px;
+    width: 80px;
+    margin-left: -120px;
+}
+.nav button{
+    margin-top: -10px;
+    height: 45px;
+    width: 160px;
+    /* background: linear-gradient(to right, #ff5733, #f5af19); */
+    background-color: rgb(33, 32, 32);
+    color: tomato;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+   margin-left: 35px;
+}
+.nav button:hover {
+    color: white;
+    background: linear-gradient(to right, #ff5733, purple);
+}
+h1{
+    text-align: center;
+    text-decoration: wavy underline darkblue;
+}
+/* #show{
+    display: none;
+} */
+table {
+   
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid black;
+   margin-left: 350px;
+   margin-top: -260px;
+   display: inline-block;
+    
+}
+table tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+table th {
+    background-color: yellow;
+    color: black;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+#donor img{
+    display: inline-block;
+    margin-left: 1000px;
+   margin-top: -10px;
+}
